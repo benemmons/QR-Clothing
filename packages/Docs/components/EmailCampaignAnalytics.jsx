@@ -29,6 +29,10 @@ export default class EmailCampaignAnalytics extends React.Component {
                             <th>Email Subscribers</th>
                             <td>{data.numberOfSubscribers}</td>
                         </tr>
+                        <tr>
+                            <th>Unique Users (30 days)</th>
+                            <td>{data.numberOfUniqueUsers}</td>
+                        </tr>
                     </tbody>
                 </table>
             );
