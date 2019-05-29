@@ -16,21 +16,21 @@ export default class EmailCampaignAnalytics extends React.Component {
 
           if (data) {
             return (
-              <table>
-              <caption>Campaign Analytics</caption>
-              <thead>
-                 <tr>
-                    <th>Data Label</th>
-                    <th>Data Value</th>
-                 </tr>
-              </thead>
-              <tbody>
-                 <tr>
-                    <th>Email Subscribers</th>
-                    <td>{data.numberOfSubscribers}</td>
-                 </tr>
-              </tbody>
-           </table>
+                <table className="table">
+                    <caption>Campaign Analytics</caption>
+                    <thead>
+                        <tr>
+                            <th>Data Label</th>
+                            <th>Data Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>Email Subscribers</th>
+                            <td>{data.numberOfSubscribers}</td>
+                        </tr>
+                    </tbody>
+                </table>
             );
           }
 
