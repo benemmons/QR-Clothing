@@ -10,6 +10,12 @@ export default {
                 'https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css',
             },
           ],
+          meta: [
+              {
+                name: 'viewport',
+                content: 'width=device-width, initial-scale=1'
+              }
+          ]
         },
       },
 }
