@@ -1,4 +1,5 @@
 {
+  "name": "qr-clothing-docs",
   "devDependencies": {
     "docz": "^1.2.0",
     "docz-theme-default": "^1.2.0"
