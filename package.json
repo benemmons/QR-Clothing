@@ -1,6 +1,9 @@
 {
   "name": "qr-clothing",
   "private": true,
+  "scripts": {
+    "build": "lerna bootstrap && lerna run build"
+  },
   "devDependencies": {
     "lerna": "^3.14.1"
   }

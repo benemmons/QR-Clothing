@@ -5,7 +5,8 @@
     "docz-theme-default": "^1.2.0"
   },
   "scripts": {
-    "dev": "yarn docz dev"
+    "dev": "yarn docz dev",
+    "build": "yarn docz build"
   },
   "dependencies": {
     "react-request": "^3.1.2"
