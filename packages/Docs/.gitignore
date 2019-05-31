@@ -84,7 +84,6 @@ typings/
 # DynamoDB Local files
 .dynamodb/
 
-# Docz temp data
-.docz/
-
+# Static build files
+build
 # End of https://www.gitignore.io/api/node
