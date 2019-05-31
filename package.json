@@ -1,0 +1,7 @@
+{
+  "name": "qr-clothing",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.14.1"
+  }
+}
