@@ -1,14 +1,12 @@
 {
   "name": "qr-clothing-docs",
-  "devDependencies": {
-    "docz": "^1.2.0",
-    "docz-theme-default": "^1.2.0"
-  },
   "scripts": {
     "dev": "yarn docz dev",
     "build": "yarn docz build"
   },
   "dependencies": {
-    "react-request": "^3.1.2"
+    "react-request": "^3.1.2",
+    "docz": "^1.2.0",
+    "docz-theme-default": "^1.2.0"
   }
 }
