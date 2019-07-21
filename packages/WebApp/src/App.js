@@ -25,7 +25,7 @@ class App extends Component {
   render() {
     const breadcrumbs = [
       {content: 'Sample apps'},
-      {content: 'Create React App'},
+      {content: 'QR-Clothing'},
     ];
     const primaryAction = {content: 'New Responses'};
     const secondaryActions = [{content: 'View Responses', icon: 'import'}];
@@ -41,10 +41,9 @@ class App extends Component {
 
     return (
       <Page
-        title="QR-Clothing"
+        title="NQX App"
         breadcrumbs={breadcrumbs}
         primaryAction={primaryAction}
-        secondaryActions={secondaryActions}
       >
         <Layout>
           <Layout.AnnotatedSection
