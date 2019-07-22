@@ -17,8 +17,13 @@ import Profile from './components/Profile'
 import Home from './components/Home'
 
 export default class App extends Component {
+    constructor(props) {
+        super(props);
+        this.profileID = new URLSearchParams(window.location.search).get('id')
+    }
+
     render(){
-        switch (new URLSearchParams(window.location.search).get('id')) {
+        switch (this.profileID) {
             case null:
                 return(    
                     <Home />
@@ -26,7 +31,7 @@ export default class App extends Component {
     
             default:
                 return(
-                    <Profile />
+                    <Profile id={this.profileID} />
                 )
                 break;
         }

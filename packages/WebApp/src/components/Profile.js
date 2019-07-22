@@ -17,7 +17,7 @@ export default class Profile extends Component {
     render(){
         return(      
           <Page
-          title="Profie #589902"
+          title={"Profie #" + this.props.id}
           breadcrumbs={[{
             content: 'Home',
             url: '/'  // host webapp on subdomain then have this link to root domain to bridge react-shopify gap
